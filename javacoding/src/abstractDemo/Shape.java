@@ -1,5 +1,6 @@
 package abstractDemo;
 public abstract class Shape {
+	//Abstrat class
 	private int noOfSides;
 	private double perimeter;
 	private double area;
