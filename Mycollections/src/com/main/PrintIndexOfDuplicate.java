@@ -14,7 +14,7 @@ public class PrintIndexOfDuplicate {
 	arr.add(2);
 	arr.add(3);
 	arr.add(5);
-	System.out.println("The elements are :" + arr);
+	System.out.println("The elements are           :" + arr);
 	
 	for(int i = 0 ; i<arr.size() ; i++){
 		for(int j = i+1 ; j<arr.size() ; j++){

@@ -18,6 +18,10 @@ public class ListOfList {
 		l2.add("n");
 		ll.add(l1);
 		ll.add(l2);
+		System.out.print("list one : " + l1);
+		System.out.println();
+		System.out.print("List second : " + l2);
+		System.out.println();
 		Iterator it = ll.iterator();
 		while(it.hasNext()){
 			ArrayList<String> innerList = new ArrayList<String>();

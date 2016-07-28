@@ -9,7 +9,7 @@ public class RemoveDuplicate {
 		
 		for(int i =0 ; i< arr.length ; i++)
 			hs.add(arr[i]);
-		System.out.println(hs);
+		System.out.println( "After deletion of duplication :" + hs);
 		
 		
 	}

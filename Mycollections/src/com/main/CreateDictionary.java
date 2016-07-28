@@ -34,7 +34,7 @@ public class CreateDictionary {
 	
 	while(it.hasNext()){
 		String key1 =it.next();
-		System.out.println("key: " + key1 + "    value: " + map.get(key1));
+		System.out.println("key: " + key1 + "      value: " + map.get(key1));
 		}
 
 	}
