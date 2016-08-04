@@ -23,8 +23,17 @@ public class EbayTest{
 	}
 	
 	@Test(dataProvider="searchString")
-	public void testListingCount(String s){
+	public void testListingCountDP(String s){
 		ebay.searchBar(s);
+		int e = ebay.listingCount();
+		boolean actual=false ;
+		actual = (e>0)?true:false;
+		Assert.assertEquals(actual, true);
+	}
+	
+	@Test
+	public void testListingCount(){
+		ebay.searchBar("laptop");
 		int e = ebay.listingCount();
 		boolean actual=false ;
 		actual = (e>0)?true:false;

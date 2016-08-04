@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                    <span class="method-stats">3 methods,  1 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -101,7 +101,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.EbayTest" hash-for-method="testListingCount">testListingCount</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.EbayTest" hash-for-method="testListingCountDP">testListingCountDP</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -116,6 +116,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.EbayTest" hash-for-method="testCategory">testCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.EbayTest" hash-for-method="testListingCount">testListingCount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -138,9 +143,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testListingCount">
-                  </a> <!-- testListingCount -->
-                  <span class="method-name">testListingCount</span>
+                  <a name="testListingCountDP">
+                  </a> <!-- testListingCountDP -->
+                  <span class="method-name">testListingCountDP</span>
                   <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:162)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -164,7 +169,7 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 Caused by: java.lang.NullPointerException
-	at com.test.EbayTest.searchString(EbayTest.java:45)
+	at com.test.EbayTest.searchString(EbayTest.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -191,12 +196,19 @@ Caused by: java.lang.NullPointerException
                   <span class="method-name">testCategory</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListingCount">
+                  </a> <!-- testListingCount -->
+                  <span class="method-name">testListingCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--855355235/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse--1087098311/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -245,20 +257,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCategory')
+data.setCell(0, 1, 'testListingCount')
 data.setCell(0, 2, 'com.test.EbayTest')
-data.setCell(0, 3, 1736);
+data.setCell(0, 3, 8960);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testListingCount')
+data.setCell(1, 1, 'testCategory')
 data.setCell(1, 2, 'com.test.EbayTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 3137);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testListingCountDP')
+data.setCell(2, 2, 'com.test.EbayTest')
+data.setCell(2, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -291,11 +307,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testCategory</span>
-                <span class="method-start">10664 ms</span>
+                <span class="method-start">8207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListingCount</span>
+                <span class="method-start">11356 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12434 ms</span>
+                <span class="method-start">20356 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

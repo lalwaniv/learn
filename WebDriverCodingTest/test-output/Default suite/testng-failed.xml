@@ -5,9 +5,9 @@
     <classes>
       <class name="com.test.EbayTest">
         <methods>
+          <include name="testListingCountDP"/>
           <include name="initialize"/>
           <include name="tearDown"/>
-          <include name="testListingCount"/>
         </methods>
       </class> <!-- com.test.EbayTest -->
     </classes>
