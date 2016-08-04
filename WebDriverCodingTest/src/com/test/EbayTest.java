@@ -32,15 +32,6 @@ public class EbayTest{
 	}
 	
 	@Test
-	public void testListingCount(){
-		ebay.searchBar("laptop");
-		int e = ebay.listingCount();
-		boolean actual=false ;
-		actual = (e>0)?true:false;
-		Assert.assertEquals(actual, true);
-	}
-	
-	@Test
 	public void testCategory(){
 		boolean e = ebay.categoryExists();
 		Assert.assertEquals(e, true);
@@ -48,16 +39,9 @@ public class EbayTest{
 	}
 	
 	@DataProvider
-	public Iterator<Object[]> searchString(){
-		Object[] str = null;
-		List<Object[]> input = new ArrayList<Object[]>();
-		str[0]="laptop";
-		input.add(str);
-		str[0]="rolex";
-		input.add(str);
-		str[0]="vitamin d3";
-		input.add(str);
-		return input.iterator();
+	public Object[][] searchString(){
+		Object[][] input = {{"laptop"},{"dell"},{"hp"}};
+		return input;
 	}
 	
 	
