@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52197" started-at="2016-08-04T01:59:57Z" finished-at="2016-08-04T02:00:49Z">
+  <suite name="Suite" duration-ms="46823" started-at="2016-08-04T15:50:26Z" finished-at="2016-08-04T15:51:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52197" started-at="2016-08-04T01:59:57Z" finished-at="2016-08-04T02:00:49Z">
+    <test name="Test" duration-ms="46823" started-at="2016-08-04T15:50:26Z" finished-at="2016-08-04T15:51:13Z">
       <class name="com.test.EbayTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.EbayTest@4de8b406]" name="initialize" is-config="true" duration-ms="11174" started-at="2016-08-03T18:59:57Z" finished-at="2016-08-03T19:00:08Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.EbayTest@3c756e4d]" name="initialize" is-config="true" duration-ms="12433" started-at="2016-08-04T08:50:26Z" finished-at="2016-08-04T08:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testCategory()[pri:0, instance:com.test.EbayTest@4de8b406]" name="testCategory" duration-ms="171" started-at="2016-08-03T19:00:08Z" finished-at="2016-08-03T19:00:09Z">
+        <test-method status="PASS" signature="testCategory()[pri:0, instance:com.test.EbayTest@3c756e4d]" name="testCategory" duration-ms="184" started-at="2016-08-04T08:50:39Z" finished-at="2016-08-04T08:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCategory -->
-        <test-method status="PASS" signature="testListingCount()[pri:0, instance:com.test.EbayTest@4de8b406]" name="testListingCount" duration-ms="10767" started-at="2016-08-03T19:00:09Z" finished-at="2016-08-03T19:00:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testListingCount -->
-        <test-method status="PASS" signature="testListingCountDP(java.lang.String)[pri:0, instance:com.test.EbayTest@4de8b406]" name="testListingCountDP" duration-ms="8755" started-at="2016-08-03T19:00:19Z" data-provider="searchString" finished-at="2016-08-03T19:00:28Z">
+        <test-method status="PASS" signature="testListingCountDP(java.lang.String)[pri:0, instance:com.test.EbayTest@3c756e4d]" name="testListingCountDP" duration-ms="11243" started-at="2016-08-04T08:50:39Z" data-provider="searchString" finished-at="2016-08-04T08:50:50Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListingCountDP -->
-        <test-method status="PASS" signature="testListingCountDP(java.lang.String)[pri:0, instance:com.test.EbayTest@4de8b406]" name="testListingCountDP" duration-ms="8413" started-at="2016-08-03T19:00:28Z" data-provider="searchString" finished-at="2016-08-03T19:00:36Z">
+        <test-method status="PASS" signature="testListingCountDP(java.lang.String)[pri:0, instance:com.test.EbayTest@3c756e4d]" name="testListingCountDP" duration-ms="8140" started-at="2016-08-04T08:50:50Z" data-provider="searchString" finished-at="2016-08-04T08:50:58Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListingCountDP -->
-        <test-method status="PASS" signature="testListingCountDP(java.lang.String)[pri:0, instance:com.test.EbayTest@4de8b406]" name="testListingCountDP" duration-ms="12591" started-at="2016-08-03T19:00:36Z" data-provider="searchString" finished-at="2016-08-03T19:00:49Z">
+        <test-method status="PASS" signature="testListingCountDP(java.lang.String)[pri:0, instance:com.test.EbayTest@3c756e4d]" name="testListingCountDP" duration-ms="5786" started-at="2016-08-04T08:50:58Z" data-provider="searchString" finished-at="2016-08-04T08:51:04Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +48,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListingCountDP -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.EbayTest@4de8b406]" name="tearDown" is-config="true" duration-ms="239" started-at="2016-08-03T19:00:49Z" finished-at="2016-08-03T19:00:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.EbayTest@3c756e4d]" name="tearDown" is-config="true" duration-ms="199" started-at="2016-08-04T08:51:04Z" finished-at="2016-08-04T08:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.EbayTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.test.RightStartTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.RightStartTest@7c0e2abd]" name="initialize" is-config="true" duration-ms="5460" started-at="2016-08-04T08:51:04Z" finished-at="2016-08-04T08:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testThermometer()[pri:0, instance:com.test.RightStartTest@7c0e2abd]" name="testThermometer" duration-ms="3169" started-at="2016-08-04T08:51:10Z" finished-at="2016-08-04T08:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThermometer -->
+        <test-method status="PASS" signature="quitpage()[pri:0, instance:com.test.RightStartTest@7c0e2abd]" name="quitpage" is-config="true" duration-ms="106" started-at="2016-08-04T08:51:13Z" finished-at="2016-08-04T08:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitpage -->
+      </class> <!-- com.test.RightStartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -5,11 +5,18 @@
     <classes>
       <class name="com.test.EbayTest">
         <methods>
+          <include name="testListingCountDP" invocation-numbers="2"/>
           <include name="initialize"/>
           <include name="tearDown"/>
-          <include name="testListingCount"/>
         </methods>
       </class> <!-- com.test.EbayTest -->
+      <class name="com.test.RightStartTest">
+        <methods>
+          <include name="quitpage"/>
+          <include name="testThermometer"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.test.RightStartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

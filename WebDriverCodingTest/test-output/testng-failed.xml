@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
       <class name="com.test.EbayTest">
         <methods>
-          <include name="testListingCountDP"/>
+          <include name="testListingCountDP" invocation-numbers="2"/>
           <include name="initialize"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.test.EbayTest -->
+      <class name="com.test.RightStartTest">
+        <methods>
+          <include name="quitpage"/>
+          <include name="testThermometer"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.test.RightStartTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

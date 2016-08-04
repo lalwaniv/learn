@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.test.EbayTest"/>
+      <class name="com.test.RightStartTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

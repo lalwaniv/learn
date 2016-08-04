@@ -2,7 +2,9 @@ package com.main;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class Ebay {
 	
@@ -15,6 +17,17 @@ public class Ebay {
 	
 	public void getPage(String url){
 		driver.get(url);
+	}
+	
+	public boolean clickThermometer(){
+		WebElement topmenu = driver.findElement(By.xpath(".//*[@id='navigation-top-cat-label-336']"));
+		Actions action = new Actions(driver);
+		action.moveToElement(topmenu).build().perform();
+		WebElement submenu = driver.findElement(By.xpath(".//*[@id='navigation-top-cat-label-1308']"));
+		action.moveToElement(submenu).build().perform();
+		WebElement childmenu = driver.findElement(By.xpath(".//*[@id='navigation-top-cat-label-1764']"));
+		action.moveToElement(childmenu).click().build().perform();	
+		 return driver.getTitle().toLowerCase().contains("thermometer");
 	}
 	
 	public void searchBar(String search){
