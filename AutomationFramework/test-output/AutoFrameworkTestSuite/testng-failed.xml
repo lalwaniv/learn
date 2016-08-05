@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutoFrameworkTestSuite]">
+  <test name="FunctionalityTesting(failed)">
+    <classes>
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="initilize"/>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+    </classes>
+  </test> <!-- FunctionalityTesting(failed) -->
+</suite> <!-- Failed suite [AutoFrameworkTestSuite] -->

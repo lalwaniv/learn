@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26489" started-at="2016-08-05T17:45:39Z" finished-at="2016-08-05T17:46:05Z">
+    <groups>
+    </groups>
+    <test name="TestHome" duration-ms="18215" started-at="2016-08-05T17:45:39Z" finished-at="2016-08-05T17:45:57Z">
+      <class name="com.test.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.HomePageTest@7921b0a2]" name="initialize" is-config="true" duration-ms="14566" started-at="2016-08-05T10:45:39Z" finished-at="2016-08-05T10:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCountSlider()[pri:0, instance:com.test.HomePageTest@7921b0a2]" name="testCountSlider" duration-ms="251" started-at="2016-08-05T10:45:53Z" finished-at="2016-08-05T10:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountSlider -->
+        <test-method status="PASS" signature="testCountSocialIcons()[pri:0, instance:com.test.HomePageTest@7921b0a2]" name="testCountSocialIcons" duration-ms="119" started-at="2016-08-05T10:45:53Z" finished-at="2016-08-05T10:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountSocialIcons -->
+        <test-method status="PASS" signature="testLoginClick()[pri:0, instance:com.test.HomePageTest@7921b0a2]" name="testLoginClick" duration-ms="3002" started-at="2016-08-05T10:45:54Z" finished-at="2016-08-05T10:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginClick -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.HomePageTest@7921b0a2]" name="quit" is-config="true" duration-ms="161" started-at="2016-08-05T10:45:57Z" finished-at="2016-08-05T10:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.HomePageTest -->
+    </test> <!-- TestHome -->
+    <test name="TestLogin" duration-ms="8067" started-at="2016-08-05T17:45:57Z" finished-at="2016-08-05T17:46:05Z">
+      <class name="com.test.LoginPageTest">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:com.test.LoginPageTest@100fc185]" name="initilize" is-config="true" duration-ms="6011" started-at="2016-08-05T10:45:57Z" finished-at="2016-08-05T10:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:com.test.LoginPageTest@100fc185]" name="testInvalidLogin" duration-ms="1944" started-at="2016-08-05T10:46:03Z" finished-at="2016-08-05T10:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.LoginPageTest@100fc185]" name="quit" is-config="true" duration-ms="92" started-at="2016-08-05T10:46:05Z" finished-at="2016-08-05T10:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.LoginPageTest -->
+    </test> <!-- TestLogin -->
+  </suite> <!-- Suite -->
+</testng-results>
